@@ -19,6 +19,11 @@ Definition:
 BFS is an algorithm for traversing or searching tree or graph data structures. It starts at a selected node (the "root") and 
 explores all of its neighboring nodes at the present depth prior to moving on to nodes at the next depth level.  
 Conisder the example:-<br> 
-       <pre> ``` A <br>/ \ B C / \ \ D E F ``` </pre> 
+       A  
+      /  \  
+     B     C  
+   /  \     \  
+  D    E      F  
+  
 BFS Traversal: Starting from node A, the BFS traversal would be:<br> 
 A -> B -> C -> D -> E -> F 
